@@ -1,0 +1,112 @@
+
+.contenedor{
+  /*height: 100vh;*/
+  background: black;
+}
+
+.row{
+  justify-content: center;
+  align-items: center;
+}
+
+
+.login-header{
+  justify-content:flex-start;
+  margin-bottom: 18px;
+}
+
+.login-log{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: #fff;
+  
+}
+
+.login-log img{
+  margin-right: 10px;
+}
+.register-tittle{
+    padding:40px;
+    font-weight:lighter;
+    text-transform:uppercase;
+    color:#414141;
+
+}
+
+.form-register{
+  display: flex;
+  flex-direction: column;
+  background: #fffffe;
+  border-radius:5px;
+ 
+}
+
+.input-register{
+    background-color:transparent;
+    height:50px;
+    width:90%;
+    margin:20px auto;
+    border:none;
+    border-bottom:1px solid rgba(0,0,0,.1);
+}
+
+
+.input-register:hover,
+.input-register:focus,
+.input-register:active:focus{
+  color:#ff5722;
+  outline:none;
+  border-bottom:1px solid #ff5722;
+  } 
+
+.input-register::placeholder{
+    color:#414141;
+  }
+
+
+
+button{
+  cursor:pointer; 
+  width:250px;
+  height:60px;
+  border:none;
+  font-family: 'Open Sans', sans-serif;
+  text-transform:uppercase;
+  color:#fff;
+  position: relative;
+   
+}
+
+.button-login{
+  margin: auto;
+}
+.register-button{
+  width:100%;
+}
+
+button:nth-of-type(1){
+  background:#f25f4c;
+}
+button:nth-of-type(2){
+  background:#ff8906;
+}
+
+span{
+  display:block;
+  position:absolute;
+  margin:-10px 30%;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+span:hover{
+    -webkit-transform:translateX(20px);
+    transform:translateX(20px);
+    
+ }
+
+Link a {
+  color: #414141;
+  text-decoration: none;
+}
